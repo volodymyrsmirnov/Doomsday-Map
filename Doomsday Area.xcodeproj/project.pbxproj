@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AECB719E15284BD30049195E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECB719D15284BD30049195E /* UIKit.framework */; };
+		AECB71A015284BD30049195E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECB719F15284BD30049195E /* Foundation.framework */; };
+		AECB71A215284BD30049195E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECB71A115284BD30049195E /* CoreGraphics.framework */; };
+		AECB71A815284BD30049195E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AECB71A615284BD30049195E /* InfoPlist.strings */; };
+		AECB71AA15284BD30049195E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AECB71A915284BD30049195E /* main.m */; };
+		AECB71AE15284BD30049195E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AECB71AD15284BD30049195E /* AppDelegate.m */; };
+		AECB71B115284BD30049195E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECB71AF15284BD30049195E /* MainStoryboard_iPhone.storyboard */; };
+		AECB71B415284BD30049195E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECB71B215284BD30049195E /* MainStoryboard_iPad.storyboard */; };
+		AECB71B715284BD30049195E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECB71B615284BD30049195E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AECB719915284BD30049195E /* Doomsday Area.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doomsday Area.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECB719D15284BD30049195E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AECB719F15284BD30049195E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AECB71A115284BD30049195E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AECB71A515284BD30049195E /* Doomsday Area-Info.plist */ = {isa = PBXFileReference; path = "Doomsday Area-Info.plist"; sourceTree = "<group>"; };
+		AECB71A715284BD30049195E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AECB71A915284BD30049195E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AECB71AB15284BD30049195E /* Doomsday Area-Prefix.pch */ = {isa = PBXFileReference; path = "Doomsday Area-Prefix.pch"; sourceTree = "<group>"; };
+		AECB71AC15284BD30049195E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AECB71AD15284BD30049195E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AECB71B015284BD30049195E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AECB71B315284BD30049195E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AECB71B515284BD30049195E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AECB71B615284BD30049195E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECB719615284BD30049195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB719E15284BD30049195E /* UIKit.framework in Frameworks */,
+				AECB71A015284BD30049195E /* Foundation.framework in Frameworks */,
+				AECB71A215284BD30049195E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AECB718E15284BD30049195E = {
+			isa = PBXGroup;
+			children = (
+				AECB71A315284BD30049195E /* Doomsday Area */,
+				AECB719C15284BD30049195E /* Frameworks */,
+				AECB719A15284BD30049195E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECB719A15284BD30049195E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECB719915284BD30049195E /* Doomsday Area.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECB719C15284BD30049195E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AECB719D15284BD30049195E /* UIKit.framework */,
+				AECB719F15284BD30049195E /* Foundation.framework */,
+				AECB71A115284BD30049195E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AECB71A315284BD30049195E /* Doomsday Area */ = {
+			isa = PBXGroup;
+			children = (
+				AECB71AC15284BD30049195E /* AppDelegate.h */,
+				AECB71AD15284BD30049195E /* AppDelegate.m */,
+				AECB71AF15284BD30049195E /* MainStoryboard_iPhone.storyboard */,
+				AECB71B215284BD30049195E /* MainStoryboard_iPad.storyboard */,
+				AECB71B515284BD30049195E /* ViewController.h */,
+				AECB71B615284BD30049195E /* ViewController.m */,
+				AECB71A415284BD30049195E /* Supporting Files */,
+			);
+			path = "Doomsday Area";
+			sourceTree = "<group>";
+		};
+		AECB71A415284BD30049195E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AECB71A515284BD30049195E /* Doomsday Area-Info.plist */,
+				AECB71A615284BD30049195E /* InfoPlist.strings */,
+				AECB71A915284BD30049195E /* main.m */,
+				AECB71AB15284BD30049195E /* Doomsday Area-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECB719815284BD30049195E /* Doomsday Area */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECB71BA15284BD30049195E /* Build configuration list for PBXNativeTarget "Doomsday Area" */;
+			buildPhases = (
+				AECB719515284BD30049195E /* Sources */,
+				AECB719615284BD30049195E /* Frameworks */,
+				AECB719715284BD30049195E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doomsday Area";
+			productName = "Doomsday Area";
+			productReference = AECB719915284BD30049195E /* Doomsday Area.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECB719015284BD30049195E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AECB719315284BD30049195E /* Build configuration list for PBXProject "Doomsday Area" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AECB718E15284BD30049195E;
+			productRefGroup = AECB719A15284BD30049195E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECB719815284BD30049195E /* Doomsday Area */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECB719715284BD30049195E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB71A815284BD30049195E /* InfoPlist.strings in Resources */,
+				AECB71B115284BD30049195E /* MainStoryboard_iPhone.storyboard in Resources */,
+				AECB71B415284BD30049195E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECB719515284BD30049195E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECB71AA15284BD30049195E /* main.m in Sources */,
+				AECB71AE15284BD30049195E /* AppDelegate.m in Sources */,
+				AECB71B715284BD30049195E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AECB71A615284BD30049195E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECB71A715284BD30049195E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AECB71AF15284BD30049195E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECB71B015284BD30049195E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AECB71B215284BD30049195E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECB71B315284BD30049195E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AECB71B815284BD30049195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECB71B915284BD30049195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECB71BB15284BD30049195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doomsday Area/Doomsday Area-Prefix.pch";
+				INFOPLIST_FILE = "Doomsday Area/Doomsday Area-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AECB71BC15284BD30049195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doomsday Area/Doomsday Area-Prefix.pch";
+				INFOPLIST_FILE = "Doomsday Area/Doomsday Area-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECB719315284BD30049195E /* Build configuration list for PBXProject "Doomsday Area" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB71B815284BD30049195E /* Debug */,
+				AECB71B915284BD30049195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECB71BA15284BD30049195E /* Build configuration list for PBXNativeTarget "Doomsday Area" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB71BB15284BD30049195E /* Debug */,
+				AECB71BC15284BD30049195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECB719015284BD30049195E /* Project object */;
+}
