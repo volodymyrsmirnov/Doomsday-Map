@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BombSelector : UIViewController
+@interface BombSelector : UITableViewController
+{
+    NSMutableArray *listOfMovies;
+    NSMutableArray *ListOfBombs;
+}
+
+@property (assign,nonatomic) NSArray *BombsList;
+@property (assign,nonatomic) NSInteger SelectedBombID;
+
 
 @end

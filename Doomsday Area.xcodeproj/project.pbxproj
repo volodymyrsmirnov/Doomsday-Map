@@ -16,6 +16,15 @@
 		AECB71B115284BD30049195E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECB71AF15284BD30049195E /* MainStoryboard_iPhone.storyboard */; };
 		AECB71B415284BD30049195E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECB71B215284BD30049195E /* MainStoryboard_iPad.storyboard */; };
 		AECB71B715284BD30049195E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECB71B615284BD30049195E /* ViewController.m */; };
+		AEE9A72315296EB4008F025F /* Bombs.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEE9A72215296EB4008F025F /* Bombs.plist */; };
+		AEE9A72615298C15008F025F /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE9A72515298C15008F025F /* MKMapView+ZoomLevel.m */; };
+		AEE9A7291529C64F008F025F /* BombSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE9A7281529C64F008F025F /* BombSelector.m */; };
+		AEEBBF1415284D1B00D251EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEBBF1315284D1B00D251EF /* MapKit.framework */; };
+		AEEBBF1715284E8800D251EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEBBF1615284E8800D251EF /* QuartzCore.framework */; };
+		AEEBBF191528579200D251EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEBBF181528579200D251EF /* CoreLocation.framework */; };
+		AEEBBF2B15287AE300D251EF /* iPadBottomPanelPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBBF2A15287AE300D251EF /* iPadBottomPanelPattern.png */; };
+		AEEBBF3015288C3300D251EF /* BombAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBBF2F15288C3300D251EF /* BombAnnotation.m */; };
+		AEEBBF321528942900D251EF /* BombIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBBF311528942900D251EF /* BombIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +32,28 @@
 		AECB719D15284BD30049195E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AECB719F15284BD30049195E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AECB71A115284BD30049195E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AECB71A515284BD30049195E /* Doomsday Area-Info.plist */ = {isa = PBXFileReference; path = "Doomsday Area-Info.plist"; sourceTree = "<group>"; };
+		AECB71A515284BD30049195E /* Doomsday Area-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doomsday Area-Info.plist"; sourceTree = "<group>"; };
 		AECB71A715284BD30049195E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AECB71A915284BD30049195E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AECB71AB15284BD30049195E /* Doomsday Area-Prefix.pch */ = {isa = PBXFileReference; path = "Doomsday Area-Prefix.pch"; sourceTree = "<group>"; };
-		AECB71AC15284BD30049195E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AECB71AB15284BD30049195E /* Doomsday Area-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Doomsday Area-Prefix.pch"; sourceTree = "<group>"; };
+		AECB71AC15284BD30049195E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AECB71AD15284BD30049195E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AECB71B015284BD30049195E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AECB71B315284BD30049195E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		AECB71B515284BD30049195E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AECB71B515284BD30049195E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AECB71B615284BD30049195E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEE9A72215296EB4008F025F /* Bombs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bombs.plist; sourceTree = "<group>"; };
+		AEE9A72415298C15008F025F /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		AEE9A72515298C15008F025F /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		AEE9A7271529C64E008F025F /* BombSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombSelector.h; sourceTree = "<group>"; };
+		AEE9A7281529C64F008F025F /* BombSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombSelector.m; sourceTree = "<group>"; };
+		AEEBBF1315284D1B00D251EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AEEBBF1615284E8800D251EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEEBBF181528579200D251EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEEBBF2A15287AE300D251EF /* iPadBottomPanelPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadBottomPanelPattern.png; sourceTree = "<group>"; };
+		AEEBBF2E15288C3300D251EF /* BombAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombAnnotation.h; sourceTree = "<group>"; };
+		AEEBBF2F15288C3300D251EF /* BombAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombAnnotation.m; sourceTree = "<group>"; };
+		AEEBBF311528942900D251EF /* BombIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BombIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEBBF191528579200D251EF /* CoreLocation.framework in Frameworks */,
+				AEEBBF1715284E8800D251EF /* QuartzCore.framework in Frameworks */,
+				AEEBBF1415284D1B00D251EF /* MapKit.framework in Frameworks */,
 				AECB719E15284BD30049195E /* UIKit.framework in Frameworks */,
 				AECB71A015284BD30049195E /* Foundation.framework in Frameworks */,
 				AECB71A215284BD30049195E /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +93,9 @@
 		AECB719C15284BD30049195E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEEBBF181528579200D251EF /* CoreLocation.framework */,
+				AEEBBF1615284E8800D251EF /* QuartzCore.framework */,
+				AEEBBF1315284D1B00D251EF /* MapKit.framework */,
 				AECB719D15284BD30049195E /* UIKit.framework */,
 				AECB719F15284BD30049195E /* Foundation.framework */,
 				AECB71A115284BD30049195E /* CoreGraphics.framework */,
@@ -79,6 +106,7 @@
 		AECB71A315284BD30049195E /* Doomsday Area */ = {
 			isa = PBXGroup;
 			children = (
+				AEEBBF1C1528641300D251EF /* Resources */,
 				AECB71AC15284BD30049195E /* AppDelegate.h */,
 				AECB71AD15284BD30049195E /* AppDelegate.m */,
 				AECB71AF15284BD30049195E /* MainStoryboard_iPhone.storyboard */,
@@ -86,6 +114,12 @@
 				AECB71B515284BD30049195E /* ViewController.h */,
 				AECB71B615284BD30049195E /* ViewController.m */,
 				AECB71A415284BD30049195E /* Supporting Files */,
+				AEEBBF2E15288C3300D251EF /* BombAnnotation.h */,
+				AEEBBF2F15288C3300D251EF /* BombAnnotation.m */,
+				AEE9A72415298C15008F025F /* MKMapView+ZoomLevel.h */,
+				AEE9A72515298C15008F025F /* MKMapView+ZoomLevel.m */,
+				AEE9A7271529C64E008F025F /* BombSelector.h */,
+				AEE9A7281529C64F008F025F /* BombSelector.m */,
 			);
 			path = "Doomsday Area";
 			sourceTree = "<group>";
@@ -97,8 +131,26 @@
 				AECB71A615284BD30049195E /* InfoPlist.strings */,
 				AECB71A915284BD30049195E /* main.m */,
 				AECB71AB15284BD30049195E /* Doomsday Area-Prefix.pch */,
+				AEE9A72215296EB4008F025F /* Bombs.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEEBBF1C1528641300D251EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBBF1D1528641C00D251EF /* iPad */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEEBBF1D1528641C00D251EF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBBF311528942900D251EF /* BombIcon.png */,
+				AEEBBF2A15287AE300D251EF /* iPadBottomPanelPattern.png */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +179,7 @@
 		AECB719015284BD30049195E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = AECB719315284BD30049195E /* Build configuration list for PBXProject "Doomsday Area" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,6 +206,9 @@
 				AECB71A815284BD30049195E /* InfoPlist.strings in Resources */,
 				AECB71B115284BD30049195E /* MainStoryboard_iPhone.storyboard in Resources */,
 				AECB71B415284BD30049195E /* MainStoryboard_iPad.storyboard in Resources */,
+				AEEBBF2B15287AE300D251EF /* iPadBottomPanelPattern.png in Resources */,
+				AEEBBF321528942900D251EF /* BombIcon.png in Resources */,
+				AEE9A72315296EB4008F025F /* Bombs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +222,9 @@
 				AECB71AA15284BD30049195E /* main.m in Sources */,
 				AECB71AE15284BD30049195E /* AppDelegate.m in Sources */,
 				AECB71B715284BD30049195E /* ViewController.m in Sources */,
+				AEEBBF3015288C3300D251EF /* BombAnnotation.m in Sources */,
+				AEE9A72615298C15008F025F /* MKMapView+ZoomLevel.m in Sources */,
+				AEE9A7291529C64F008F025F /* BombSelector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +346,7 @@
 				AECB71BC15284BD30049195E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

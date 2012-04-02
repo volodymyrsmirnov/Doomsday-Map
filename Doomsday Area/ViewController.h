@@ -7,7 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "BombAnnotation.h"
+#import "BombSelector.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate, UIPopoverControllerDelegate>
+{
+    BombAnnotation *Bomb;
+    MKAnnotationView *BombView;
+    CLLocationManager *LocationManager;
+    NSDictionary *Bombs;
+    NSDictionary *SelectedBomb;
+    
+    IBOutlet MKMapView *Map;
+    IBOutlet UIToolbar *BottomToolbar;
+    
+    BombSelector *BombSelectorController;
+}
+
+- (void) RenderDamageZones;
+
+- (IBAction) GotoMyLocation: (id) sender;
+- (IBAction) GotoEnteredLocation: (id) sender;
+- (IBAction) SelectBomb: (id) sender;
+
+@property (nonatomic, retain) CLLocationManager *LocationManager;
+@property (retain,nonatomic) UIPopoverController *Popover;
+
 
 @end

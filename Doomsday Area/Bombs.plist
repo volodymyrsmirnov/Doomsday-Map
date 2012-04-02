@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Bombs</key>
+	<array>
+		<dict>
+			<key>zoom</key>
+			<integer>13</integer>
+			<key>power</key>
+			<integer>2000</integer>
+			<key>description</key>
+			<string>The atomic bomb that was detonated over Hiroshima.</string>
+			<key>title</key>
+			<string>Litte Boy (18 kilotons)</string>
+		</dict>
+		<dict>
+			<key>zoom</key>
+			<integer>12</integer>
+			<key>power</key>
+			<integer>3000</integer>
+			<key>description</key>
+			<string>The atomic bomb that was detonated over Nagasaki.</string>
+			<key>title</key>
+			<string>Fat Man (21 kilotons)</string>
+		</dict>
+		<dict>
+			<key>zoom</key>
+			<integer>11</integer>
+			<key>power</key>
+			<integer>6000</integer>
+			<key>description</key>
+			<string>Land-based nuclear missile in service in the Russia.</string>
+			<key>title</key>
+			<string>SS-27 Sickle B «Topol-M» (800 kilotons)</string>
+		</dict>
+		<dict>
+			<key>zoom</key>
+			<integer>11</integer>
+			<key>power</key>
+			<integer>10000</integer>
+			<key>description</key>
+			<string>Land-based nuclear missile in service in the U.S.</string>
+			<key>title</key>
+			<string>LGM-30G Minuteman-III (1 megaton)</string>
+		</dict>
+		<dict>
+			<key>zoom</key>
+			<integer>9</integer>
+			<key>power</key>
+			<integer>30000</integer>
+			<key>description</key>
+			<string>U.S. dry fuel thermonuclear hydrogen bomb.</string>
+			<key>title</key>
+			<string>Castle Bravo (10 megetons)</string>
+		</dict>
+		<dict>
+			<key>zoom</key>
+			<integer>8</integer>
+			<key>power</key>
+			<integer>50000</integer>
+			<key>description</key>
+			<string>The most powerful nuclear weapon ever detonated.</string>
+			<key>title</key>
+			<string>Tsar Bomba (50 megatons)</string>
+		</dict>
+	</array>
+</dict>
 </plist>

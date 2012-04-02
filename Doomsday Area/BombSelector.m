@@ -7,12 +7,12 @@
 //
 
 #import "BombSelector.h"
+#import "ViewController.h"
 
-@interface BombSelector ()
-
-@end
 
 @implementation BombSelector
+
+@synthesize BombsList, SelectedBombID;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,17 +23,46 @@
     return self;
 }
 
-- (void)viewDidLoad
+- (void)viewDidLoad 
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [super viewDidLoad];    
+    [self setClearsSelectionOnViewWillAppear:YES];
 }
 
-- (void)viewDidUnload
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    return 1;
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
+{
+    return [BombsList count];
+}
+
+// Customize the appearance of table view cells.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) 
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    }
+    
+    [[cell textLabel] setText: [[BombsList objectAtIndex:indexPath.row] objectForKey:@"title"]];
+    [[cell detailTextLabel] setText: [[BombsList objectAtIndex:indexPath.row] objectForKey:@"description"]];
+        
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    [self setSelectedBombID:[indexPath row]];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"popoverShouldDismiss" object:nil];
+}
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
